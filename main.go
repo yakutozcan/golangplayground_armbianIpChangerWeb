@@ -284,7 +284,7 @@ address ` + staticIp + `
 netmask 255.255.255.0
 broadcast 192.168.` + subNet + `.255
 network 192.168.` + subNet + `.0
-address ` + gateway + `
+gateway ` + gateway + `
 dns-nameservers 8.8.8.8 8.8.4.4`)
 	if errFileWrite != nil {
 		fmt.Println(errFileWrite)
